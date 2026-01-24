@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Vaidik Ramani - React Native Developer Portfolio. Experienced in building high-performance mobile applications for iOS and Android.">
+    <meta name="keywords" content="React Native, Developer, Mobile Apps, JavaScript, TypeScript, Node.js">
+    <meta name="author" content="Vaidik Ramani">
+    <title>Vaidik Ramani | React Native Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">
+                <span class="logo-highlight">V</span>aidik<span class="logo-dot">.</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">Experience</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">Education</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <span>&times;</span>
+                </div>
+            </div>
+
+            <a href="Vaidik Ramani.pdf" download class="btn btn--primary nav__download">
+                <span>Download CV</span>
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                    <polyline points="7 10 12 15 17 10"/>
+                    <line x1="12" y1="15" x2="12" y2="3"/>
+                </svg>
+            </a>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <div class="hero__data">
+                        <span class="hero__subtitle">Hello, I'm</span>
+                        <h1 class="hero__title">Vaidik Ramani</h1>
+                        <div class="hero__role">
+                            <span class="typing-text" id="typing-text"></span>
+                            <span class="cursor">|</span>
+                        </div>
+                        <p class="hero__description">
+                            Driven React Native developer with 2+ years of experience creating and maintaining
+                            mobile apps for iOS and Android. Passionate about delivering best user experiences
+                            through agile development processes.
+                        </p>
+                        <div class="hero__buttons">
+                            <a href="#contact" class="btn btn--primary">
+                                <span>Get In Touch</span>
+                                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7" />
+                                </svg>
+                            </a>
+                            <a href="#projects" class="btn btn--outline">
+                                <span>View Projects</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero__image">
+                        <div class="hero__image-wrapper">
+                            <div class="hero__image-bg"></div>
+                            <div class="hero__avatar">
+                                <span class="avatar-initials">VR</span>
+                            </div>
+                            <div class="floating-badge badge--exp">
+                                <span class="badge-number">2+</span>
+                                <span class="badge-text">Years Exp</span>
+                            </div>
+                            <div class="floating-badge badge--projects">
+                                <span class="badge-number">10+</span>
+                                <span class="badge-text">Projects</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__scroll">
+                    <a href="#about" class="scroll-down">
+                        <span class="scroll-text">Scroll Down</span>
+                        <div class="scroll-icon">
+                            <span class="scroll-dot"></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="hero__particles" id="particles"></div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__subtitle">Get To Know</span>
+                    <h2 class="section__title">About Me</h2>
+                </div>
+
+                <div class="about__content">
+                    <div class="about__image">
+                        <div class="about__img-wrapper">
+                            <div class="about__img-bg"></div>
+                            <div class="about__avatar">
+                                <span>VR</span>
+                            </div>
+                        </div>
+                        <div class="about__experience-badge">
+                            <div class="exp-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                                </svg>
+                            </div>
+                            <div class="exp-info">
+                                <span class="exp-years">2+</span>
+                                <span class="exp-text">Years of Experience</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about__data">
+                        <div class="about__info-cards">
+                            <div class="info-card">
+                                <div class="info-card__icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                                        <line x1="8" y1="21" x2="16" y2="21" />
+                                        <line x1="12" y1="17" x2="12" y2="21" />
+                                    </svg>
+                                </div>
+                                <h3 class="info-card__title">10+</h3>
+                                <p class="info-card__text">Projects Completed</p>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card__icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                                        <circle cx="9" cy="7" r="4" />
+                                        <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                                        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                    </svg>
+                                </div>
+                                <h3 class="info-card__title">25%</h3>
+                                <p class="info-card__text">Customer Engagement Increase</p>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card__icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="12" r="10" />
+                                        <polyline points="12,6 12,12 16,14" />
+                                    </svg>
+                                </div>
+                                <h3 class="info-card__title">Agile</h3>
+                                <p class="info-card__text">Development Methodology</p>
+                            </div>
+                        </div>
+
+                        <p class="about__description">
+                            I am a driven React Native developer with proven ability to build high-performance,
+                            innovative applications utilizing React Native, JavaScript, HTML5/CSS3 and other
+                            relevant technologies. At <strong>Flawsome Technology Company</strong>, I leveraged
+                            my expertise in developing eCommerce solutions resulting in an increase in customer
+                            engagement by <strong>25%</strong>.
+                        </p>
+                        <p class="about__description">
+                            I'm passionate about delivering the best user experiences through agile development
+                            processes. My technical expertise spans across mobile and web development, with
+                            proficiency in modern frameworks and tools.
+                        </p>
+
+                        <div class="about__details">
+                            <div class="detail-item">
+                                <span class="detail-icon">📧</span>
+                                <span class="detail-text">ramanivaidik11@gmail.com</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-icon">📱</span>
+                                <span class="detail-text">+44 7799514527</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-icon">📍</span>
+                                <span class="detail-text">North Wembley, London</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-icon">🌐</span>
+                                <span class="detail-text">English, Hindi, Gujarati</span>
+                            </div>
+                        </div>
+
+                        <a href="#contact" class="btn btn--primary about__btn">
+                            <span>Let's Talk</span>
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__subtitle">My Abilities</span>
+                    <h2 class="section__title">Technical Skills</h2>
+                </div>
+
+                <div class="skills__content">
+                    <div class="skills__category">
+                        <h3 class="skills__category-title">
+                            <span class="category-icon">🎨</span>
+                            Frontend Development
+                        </h3>
+                        <div class="skills__list">
+                            <div class="skill-item" data-progress="95">
+                                <div class="skill-header">
+                                    <span class="skill-name">HTML5</span>
+                                    <span class="skill-percent">95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-progress="90">
+                                <div class="skill-header">
+                                    <span class="skill-name">CSS3</span>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-progress="92">
+                                <div class="skill-header">
+                                    <span class="skill-name">JavaScript</span>
+                                    <span class="skill-percent">92%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-progress="88">
+                                <div class="skill-header">
+                                    <span class="skill-name">TypeScript</span>
+                                    <span class="skill-percent">88%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-progress="90">
+                                <div class="skill-header">
+                                    <span class="skill-name">React / React Native</span>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__category">
+                        <h3 class="skills__category-title">
+                            <span class="category-icon">⚙️</span>
+                            Backend Development
+                        </h3>
+                        <div class="skills__list">
+                            <div class="skill-item" data-progress="85">
+                                <div class="skill-header">
+                                    <span class="skill-name">Node.js</span>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-progress="80">
+                                <div class="skill-header">
+                                    <span class="skill-name">REST APIs</span>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-progress="75">
+                                <div class="skill-header">
+                                    <span class="skill-name">gRPC Architecture</span>
+                                    <span class="skill-percent">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__category">
+                        <h3 class="skills__category-title">
+                            <span class="category-icon">🛠️</span>
+                            Tools & Methodologies
+                        </h3>
+                        <div class="skills__list">
+                            <div class="skill-item" data-progress="88">
+                                <div class="skill-header">
+                                    <span class="skill-name">Git Version Control</span>
+                                    <span class="skill-percent">88%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-progress="85">
+                                <div class="skill-header">
+                                    <span class="skill-name">Agile Methodology</span>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience section" id="experience">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__subtitle">My Journey</span>
+                    <h2 class="section__title">Work Experience</h2>
+                </div>
+
+                <div class="experience__content">
+                    <div class="timeline">
+                        <div class="timeline__item">
+                            <div class="timeline__dot"></div>
+                            <div class="timeline__content">
+                                <div class="timeline__header">
+                                    <div class="timeline__info">
+                                        <h3 class="timeline__title">Junior React Native Developer</h3>
+                                        <span class="timeline__company">Flawsome Technology Projects</span>
+                                    </div>
+                                    <span class="timeline__date">2023 - 2025</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__subtitle">My Work</span>
+                    <h2 class="section__title">Featured Projects</h2>
+                </div>
+
+                <div class="projects__slider">
+                    <div class="slider__container" id="projects-slider">
+                        <!-- Project 1 -->
+                        <div class="project-card">
+                            <div class="project-card__image">
+                                <div class="project-placeholder">
+                                    <span class="project-icon">🍕</span>
+                                </div>
+                                <div class="project-card__overlay">
+                                    <div class="overlay-content">
+                                        <span class="view-project">View Details</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-card__content">
+                                <h3 class="project-card__title">Online Pizza Ordering System</h3>
+                    
+                                <ul class="project-card__features">
+                                    <li>Successfully spearheaded the development of an online pizza ordering system
+                                        using Node.js, React, JavaScript, TypeScript, HTML5, CSS3</li>
+                                    <li>Designed and implemented a robust database schema to efficiently manage customer
+                                        information, pizza menu items, and order records</li>
+                                    <li>Integrated user authentication and authorization features, ensuring secure
+                                        access control for registered users</li>
+                                    <li>Integrated Razorpay payment gateway, enabling online payment processing for
+                                        orders, resulting in a 25% increase in online sales</li>
+                                    <li>Designed an intuitive and responsive user interface using HTML5, CSS3, resulting
+                                        in a 20% reduction in bounce rates</li>
+                                    <li>Implemented client-side and server-side validation to enhance user experience
+                                        and prevent erroneous inputs</li>
+                                    <li>Collaborated with a team of three developers using Git for version control,
+                                        ensuring seamless code integration and collaboration</li>
+                                </ul>
+                                <div class="project-card__tech">
+                                    <span class="tech-tag">Node.js</span>
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                    <span class="tech-tag">TypeScript</span>
+                                    <span class="tech-tag">HTML5</span>
+                                    <span class="tech-tag">CSS3</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <!-- Project 2 -->
+                        <div class="project-card">
+                            <div class="project-card__image">
+                                <div class="project-placeholder">
+                                    <span class="project-icon">💳</span>
+                                </div>
+                                <div class="project-card__overlay">
+                                    <div class="overlay-content">
+                                        <span class="view-project">View Details</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-card__content">
+                                <h3 class="project-card__title">Payment Gateway Integration</h3>
+                                <p class="project-card__description">
+                                    Led the seamless integration of the Stripe payment gateway within a high-performance
+                                    gRPC microservices architecture in Node.js.
+                                </p>
+                                <ul class="project-card__features">
+                                    <li>Architected and implemented a robust payment service using gRPC, enabling secure
+                                        and efficient inter-service communication</li>
+                                    <li>Successfully integrated the Stripe API to facilitate secure credit/debit card
+                                        payments, ensuring compliance with stringent PCI-DSS standards</li>
+                                    <li>Leveraged gRPC bidirectional streaming for real-time payment status updates,
+                                        providing customers with instant transaction feedback and improving transparency
+                                    </li>
+                                    <li>Implemented tokenization techniques to securely handle customer payment
+                                        information, adhering to PCI-DSS compliance standards</li>
+                                </ul>
+                                <div class="project-card__tech">
+                                    <span class="tech-tag">Node.js</span>
+                                    <span class="tech-tag">gRPC</span>
+                                    <span class="tech-tag">Stripe</span>
+                                    <span class="tech-tag">Microservices</span>
+                                    <span class="tech-tag">PCI-DSS</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slider__controls">
+                        <button class="slider__btn slider__btn--prev" id="prev-btn" aria-label="Previous project">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M19 12H5M12 19l-7-7 7-7" />
+                            </svg>
+                        </button>
+                        <div class="slider__dots" id="slider-dots"></div>
+                        <button class="slider__btn slider__btn--next" id="next-btn" aria-label="Next project">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Assessment Section -->
+        
+
+        <!-- Learning Timeline Section -->
+        <section class="learning-timeline section" id="learning-timeline">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__subtitle">Course Progress</span>
+                    <h2 class="section__title">Weekly Technologies Learned</h2>
+                </div>
+
+                <div class="accordion">
+                    <!-- Week 3 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span class="accordion-title">Week 3 – Programming Fundamentals & Logic</span>
+                            <span class="accordion-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="accordion-body">
+                                <div class="accordion-section">
+                                    <h4>Technologies / Concepts:</h4>
+                                    <ul class="accordion-list">
+                                        <li>Python programming</li>
+                                        <li>User input handling</li>
+                                        <li>Conditional statements (if, elif, else)</li>
+                                        <li>Looping constructs</li>
+                                        <li>Mathematical calculations</li>
+                                        <li>Console-based program execution</li>
+                                    </ul>
+                                </div>
+                                <div class="accordion-section">
+                                    <h4>Skills Developed:</h4>
+                                    <ul class="accordion-list">
+                                        <li>Logical thinking</li>
+                                        <li>Problem-solving</li>
+                                        <li>Decision-making in programs</li>
+                                    </ul>
+                                </div>
+                                <div class="accordion-section">
+                                    <h4>Relevance to Web Development:</h4>
+                                    <ul class="accordion-list">
+                                        <li>Forms logic</li>
+                                        <li>JavaScript condition handling</li>
+                                        <li>Client-side validation logic</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Week 4 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span class="accordion-title">Week 4 – Data Handling & Persistence</span>
+                            <span class="accordion-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="accordion-body">
+                                <div class="accordion-section">
+                                    <h4>Technologies / Concepts:</h4>
+                                    <ul class="accordion-list">
+                                        <li>Python</li>
+                                        <li>Variables and data types</li>
+                                        <li>Inventory management logic</li>
+                                        <li>File handling</li>
+                                        <li>Text file storage</li>
+                                        <li>CSV file handling</li>
+                                    </ul>
+                                </div>
+                                <div class="accordion-section">
+                                    <h4>Skills Developed:</h4>
+                                    <ul class="accordion-list">
+                                        <li>Data storage and retrieval</li>
+                                        <li>Persistent data management</li>
+                                        <li>Structured data understanding</li>
+                                    </ul>
+                                </div>
+                                <div class="accordion-section">
+                                    <h4>Relevance to Web Development:</h4>
+                                    <ul class="accordion-list">
+                                        <li>Backend data concepts</li>
+                                        <li>Database fundamentals</li>
+                                        <li>Form data storage logic</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Week 5 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span class="accordion-title">Week 5 – HTML, CSS & Local Web Server</span>
+                            <span class="accordion-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="accordion-body">
+                                <div class="accordion-section">
+                                    <h4>Technologies / Concepts:</h4>
+                                    <ul class="accordion-list">
+                                        <li>HTML5</li>
+                                        <li>CSS3</li>
+                                        <li>Multi-page website structure</li>
+                                        <li>JavaScript (basic)</li>
+                                        <li>WAMP Server</li>
+                                        <li>Apache</li>
+                                        <li>PHP (introductory)</li>
+                                        <li>MySQL (conceptual)</li>
+                                        <li>FTP / browser-based deployment</li>
+                                    </ul>
+                                </div>
+                                <div class="accordion-section">
+                                    <h4>Skills Developed:</h4>
+                                    <ul class="accordion-list">
+                                        <li>Website structure and styling</li>
+                                        <li>Local hosting</li>
+                                        <li>Code organisation</li>
+                                    </ul>
+                                </div>
+                                <div class="accordion-section">
+                                    <h4>Relevance to Portfolio Website:</h4>
+                                    <ul class="accordion-list">
+                                        <li>Core website development technologies</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Week 6 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span class="accordion-title">Week 6 – Dynamic Web Applications & Forms</span>
+                            <span class="accordion-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="accordion-body">
+                                <div class="accordion-section">
+                                    <h4>Technologies / Concepts:</h4>
+                                    <ul class="accordion-list">
+                                        <li>HTML forms</li>
+                                        <li>JavaScript form validation</li>
+                                        <li>AJAX (asynchronous requests)</li>
+                                        <li>Server-side processing concepts</li>
+                                        <li>ASP / JSP (conceptual alternatives)</li>
+                                        <li>Dynamic content updates</li>
+                                    </ul>
+                                </div>
+                                <div class="accordion-section">
+                                    <h4>Skills Developed:</h4>
+                                    <ul class="accordion-list">
+                                        <li>Interactive forms</li>
+                                        <li>Client–server interaction</li>
+                                        <li>Dynamic user experience</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Week 7 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span class="accordion-title">Week 7 – Content Management Systems & AJAX</span>
+                            <span class="accordion-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="accordion-body">
+                                <div class="accordion-section">
+                                    <h4>Task 1 (CMS) - Technologies / Concepts:</h4>
+                                    <ul class="accordion-list">
+                                        <li>WordPress CMS</li>
+                                        <li>Blog creation</li>
+                                        <li>Content publishing</li>
+                                        <li>Categories and tags</li>
+                                        <li>Media management</li>
+                                        <li>Basic DOM manipulation with JavaScript</li>
+                                    </ul>
+                                </div>
+                                <div class="accordion-section">
+                                    <h4>Task 2 (Integration) - Technologies / Concepts:</h4>
+                                    <ul class="accordion-list">
+                                        <li>AJAX integration</li>
+                                        <li>Asynchronous data loading</li>
+                                        <li>Combined use of HTML, CSS, and JavaScript</li>
+                                    </ul>
+                                </div>
+                                <div class="accordion-section">
+                                    <h4>Skills Developed:</h4>
+                                    <ul class="accordion-list">
+                                        <li>CMS usage</li>
+                                        <li>Content-driven web development</li>
+                                        <li>Improved UX through asynchronous behaviour</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Week 8 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span class="accordion-title">Week 8 – Multimedia & Animation</span>
+                            <span class="accordion-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="accordion-body">
+                                <div class="accordion-section">
+                                    <h4>Task 1 - Technologies / Concepts:</h4>
+                                    <ul class="accordion-list">
+                                        <li>HTML5 multimedia</li>
+                                        <li>&lt;video&gt; element</li>
+                                        <li>Media controls</li>
+                                        <li>MP4 video embedding</li>
+                                    </ul>
+                                </div>
+                                <div class="accordion-section">
+                                    <h4>Task 2 - Technologies / Concepts:</h4>
+                                    <ul class="accordion-list">
+                                        <li>HTML5 &lt;audio&gt; and &lt;img&gt;</li>
+                                        <li>Image galleries</li>
+                                        <li>CSS animations</li>
+                                        <li>Skills showcase layout</li>
+                                    </ul>
+                                </div>
+                                <div class="accordion-section">
+                                    <h4>Skills Developed:</h4>
+                                    <ul class="accordion-list">
+                                        <li>Media-rich web pages</li>
+                                        <li>Visual engagement techniques</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Week 9 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span class="accordion-title">Week 9 – User Management & Web Security</span>
+                            <span class="accordion-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="accordion-body">
+                                <div class="accordion-section">
+                                    <h4>Task 1 - Technologies / Concepts:</h4>
+                                    <ul class="accordion-list">
+                                        <li>User registration forms</li>
+                                        <li>Input validation</li>
+                                        <li>Password security concepts</li>
+                                        <li>Privacy and consent</li>
+                                        <li>Authentication concepts</li>
+                                        <li>User roles and permissions</li>
+                                    </ul>
+                                </div>
+                                <div class="accordion-section">
+                                    <h4>Task 2 - Technologies / Concepts:</h4>
+                                    <ul class="accordion-list">
+                                        <li>Admin privileges</li>
+                                        <li>Access control concepts</li>
+                                    </ul>
+                                </div>
+                                <div class="accordion-section">
+                                    <h4>Skills Developed:</h4>
+                                    <ul class="accordion-list">
+                                        <li>Secure form design</li>
+                                        <li>User experience & privacy awareness</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Week 10 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span class="accordion-title">Week 10 – Responsive Design, Plugins & Security</span>
+                            <span class="accordion-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="accordion-body">
+                                <div class="accordion-section">
+                                    <h4>Task 1 - Technologies / Concepts:</h4>
+                                    <ul class="accordion-list">
+                                        <li>Responsive navigation menus</li>
+                                        <li>CSS media queries</li>
+                                        <li>Dropdown menus</li>
+                                        <li>Smooth scrolling</li>
+                                        <li>Anchor links</li>
+                                    </ul>
+                                </div>
+                                <div class="accordion-section">
+                                    <h4>Task 2 - Technologies / Concepts:</h4>
+                                    <ul class="accordion-list">
+                                        <li>WordPress plugins</li>
+                                        <li>Website security concepts</li>
+                                        <li>SQL Injection awareness</li>
+                                        <li>Cross-Site Scripting (XSS)</li>
+                                        <li>Website maintenance and updates</li>
+                                    </ul>
+                                </div>
+                                <div class="accordion-section">
+                                    <h4>Skills Developed:</h4>
+                                    <ul class="accordion-list">
+                                        <li>Responsive UI design</li>
+                                        <li>Website security awareness</li>
+                                        <li>Plugin integration</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education section" id="education">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__subtitle">My Learning Path</span>
+                    <h2 class="section__title">Education</h2>
+                </div>
+
+                <div class="education__content">
+                    <div class="education__grid">
+                        <div class="education-card">
+                            <div class="education-card__icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                                    <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                                </svg>
+                            </div>
+                            <div class="education-card__content">
+                                <span class="education-card__date">2025 - Present</span>
+                                <h3 class="education-card__title">MSc Computer Science (Conversion)</h3>
+                                <p class="education-card__institution">The University of Law</p>
+                                <span class="education-card__status status--current">Currently Pursuing</span>
+                            </div>
+                        </div>
+
+                        <div class="education-card">
+                            <div class="education-card__icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                                    <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                                </svg>
+                            </div>
+                            <div class="education-card__content">
+                                <span class="education-card__date">2021 - 2023</span>
+                                <h3 class="education-card__title">Master of Computer Application</h3>
+                                <p class="education-card__institution">L.J Institute of Computer Applications</p>
+                                <div class="education-card__grade">
+                                    <span class="grade-label">CGPA:</span>
+                                    <span class="grade-value">7.92</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="education-card">
+                            <div class="education-card__icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                                    <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                                </svg>
+                            </div>
+                            <div class="education-card__content">
+                                <span class="education-card__date">2018 - 2021</span>
+                                <h3 class="education-card__title">Bachelor of Computer Application</h3>
+                                <p class="education-card__institution">L.J Institute of Computer Applications</p>
+                                <div class="education-card__grade">
+                                    <span class="grade-label">CGPA:</span>
+                                    <span class="grade-value">7.67</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certifications">
+                        <h3 class="certifications__title">Certifications</h3>
+                        <div class="certifications__list">
+                            <div class="certification-badge">
+                                <span class="badge-icon">🏆</span>
+                                <span class="badge-name">IBM Big Data Foundation</span>
+                            </div>
+                            <div class="certification-badge">
+                                <span class="badge-icon">📜</span>
+                                <span class="badge-name">HackerRank SQL (Basics)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__subtitle">Get In Touch</span>
+                    <h2 class="section__title">Contact Me</h2>
+                </div>
+
+                <div class="contact__content">
+                    <div class="contact__info">
+                        <h3 class="contact__info-title">Let's work together</h3>
+                        <p class="contact__info-description">
+                            I'm currently available for freelance projects and full-time opportunities.
+                            Feel free to reach out if you have an interesting project or just want to connect!
+                        </p>
+
+                        <div class="contact__cards">
+                            <div class="contact-card">
+                                <div class="contact-card__icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path
+                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                        <polyline points="22,6 12,13 2,6" />
+                                    </svg>
+                                </div>
+                                <div class="contact-card__content">
+                                    <h4 class="contact-card__title">Email</h4>
+                                    <a href="mailto:ramanivaidik11@gmail.com" class="contact-card__text">
+                                        ramanivaidik11@gmail.com
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="contact-card">
+                                <div class="contact-card__icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path
+                                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                                    </svg>
+                                </div>
+                                <div class="contact-card__content">
+                                    <h4 class="contact-card__title">Phone</h4>
+                                    <a href="tel:+447799514527" class="contact-card__text">
+                                        +44 7799514527
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="contact-card">
+                                <div class="contact-card__icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                        <circle cx="12" cy="10" r="3" />
+                                    </svg>
+                                </div>
+                                <div class="contact-card__content">
+                                    <h4 class="contact-card__title">Location</h4>
+                                    <p class="contact-card__text">
+                                        254 East Lane, North Wembley,<br>
+                                        Wembley HA0 3LQ
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact__form-wrapper">
+                        <form class="contact__form" id="contact-form">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" id="name" name="name" class="form-input"
+                                    placeholder="Enter your name" required>
+                                <span class="form-error" id="name-error"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" id="email" name="email" class="form-input"
+                                    placeholder="Enter your email" required>
+                                <span class="form-error" id="email-error"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" id="subject" name="subject" class="form-input"
+                                    placeholder="What is this about?">
+                                <span class="form-error" id="subject-error"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" name="message" class="form-input form-textarea"
+                                    placeholder="Your message here..." rows="5" required></textarea>
+                                <span class="form-error" id="message-error"></span>
+                            </div>
+
+                            <button type="submit" class="btn btn--primary btn--full">
+                                <span>Send Message</span>
+                                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <line x1="22" y1="2" x2="11" y2="13" />
+                                    <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                                </svg>
+                            </button>
+
+                            <div class="form-success" id="form-success">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                                    <polyline points="22 4 12 14.01 9 11.01" />
+                                </svg>
+                                <span>Message sent successfully!</span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <a href="#home" class="footer__logo">
+                        <span class="logo-highlight">V</span>aidik<span class="logo-dot">.</span>
+                    </a>
+                    <p class="footer__description">
+                        React Native Developer passionate about creating innovative mobile solutions.
+                    </p>
+                </div>
+
+                <div class="footer__links">
+                    <h4 class="footer__title">Quick Links</h4>
+                    <ul class="footer__nav">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__social">
+                    <h4 class="footer__title">Connect</h4>
+                    <div class="social-links">
+                        <a href="mailto:ramanivaidik11@gmail.com" class="social-link" aria-label="Email">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                <polyline points="22,6 12,13 2,6" />
+                            </svg>
+                        </a>
+                        <a href="tel:+447799514527" class="social-link" aria-label="Phone">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    &copy; 2026 Vaidik Ramani. All rights reserved.
+                </p>
+                <p class="footer__tech">
+                    Built with HTML, CSS & JavaScript
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 19V5M5 12l7-7 7 7" />
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
